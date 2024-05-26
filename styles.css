@@ -1,0 +1,390 @@
+        @media only screen and (max-width: 100%) {
+        body {
+            background-color: lightblue;
+            margin: 0px;
+            width: 100%;
+            height: 1900px;
+        }
+        }
+        nav{
+            background-color: rgb(0, 0, 88);
+            display: flex;
+        }
+        .b1{
+            height: 35px;
+            width: 100%;
+            background-color:rgba(0, 0, 0, 0);
+            border: 0px;
+            color: white;
+            font-weight: bolder;
+        }
+        #bt1{
+           padding-left: 1150px;
+        }
+        
+        .main{
+            width: 100%;
+            height: 80px;
+        }
+        .header{
+            padding-left: 15px;
+            padding-right: 10px;
+            display: grid;
+            grid-template-columns: repeat(20,auto);
+            width: 100%;
+            background-color: black;
+        }
+        .header ul{
+            list-style-type: none;
+            text-decoration: none;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px 0px 0px 10px;
+            grid-column-gap: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .header ul li{
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 15px ;
+            text-align: center;
+            position: relative;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .header ul li a:hover{
+            color: black;
+        }
+        .header ul li:hover {
+            background: rgba(255, 255,255,0.3);
+        }
+        .header ul li ul{
+            position: absolute;
+            display: block;
+        }
+        .header ul li ul li{  
+            z-index: 9999;
+            width: 100%;
+            display: none;
+            border-bottom: 2px solid white;
+            text-align: center;
+        }
+        .header ul li:hover ul li{
+            z-index: 9999;
+            display: block;
+        }
+        .txt1{
+            padding-bottom: 30px;
+            text-align: left;
+            font-size: 60px;
+            color: white;
+            font-weight: bolder;
+            font-family: sans-serif;
+        }
+        #s1{
+            padding-bottom: 30px;
+            text-align: left;
+            font-size: 50px;
+            color: white;
+            font-weight: bolder;
+            font-family: sans-serif;
+        }
+        #s2{
+            padding-bottom: 30px;
+            text-align: left;
+            font-size: 50px;
+            color: white;
+            font-weight: bolder;
+            font-family: sans-serif;
+        }
+        #s3{
+            padding-bottom: 30px;
+            text-align: left;
+            font-size: 50px;
+            color: white;
+            font-weight: bolder;
+            font-family: sans-serif;
+        }
+        .txt2{
+            color: white;
+            font-family: sans-serif;
+            padding-bottom: 270px;
+            text-align: left;
+            text-decoration: underline;
+            color: white;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        #cards{
+            background-color: black;
+            padding: 20px;
+            display: grid;
+            grid-column-gap: 30px;
+            grid-template-columns: repeat(3,auto);
+            grid-template-rows: 600px;
+           
+        }
+        #c1{
+            padding-top: 450px;
+            padding-left: 25px;
+            grid-column: 1/2;
+            background-image: url(./Images/lay3.jpg);
+            background-size: cover;
+            border-radius: 30px;
+            font-size: xx-large;
+            color: white;
+        }
+        #c2{
+            padding-top: 450px;
+            padding-left: 25px;
+            grid-column: 2/3;
+            background-image: url(./Images/lay2.jpg);
+            background-size: cover;
+            border-radius: 30px;
+            font-size: xx-large;
+            color: white;
+            
+        }
+        #c3{
+            padding-top: 450px;
+            padding-left: 25px;
+            grid-column: 3/4;
+            background-image: url(./Images/lay1.jpg);
+            background-size: cover;
+            border-radius: 30px;
+            font-size: xx-large;
+            color: white;   
+       }
+       #abtus{
+            text-align: center;
+            align-items: center;
+            padding-top: 3px;
+            color: black;
+            background-color: white;
+            display: grid;
+            font-size: larger;
+            grid-template-rows: 600px;
+            /* grid-template-columns: repeat(4,auto); */
+        }
+        #a1{
+            grid-column: 2/3;
+        }
+        #a2{
+            
+            grid-column: 3/4;
+        }
+        #a3{
+            grid-column: 4/5;
+        }
+        .carousel-inner{
+            height: 650px;
+            width: 100%;
+        }
+        .txt11{
+            padding-bottom: 400px;
+            text-align: left;
+            font-size: 40px;
+            color: white;
+            font-weight: bolder;
+            font-family: sans-serif;
+        }
+        .txt12{
+            text-align: left;
+            font-size: 40px;
+            color: white;
+            font-weight: bolder;
+            font-family: sans-serif;
+      }
+       .txt13{
+            padding-bottom: 400px;
+            text-align: left;
+            font-size: 40px;
+            color: white;
+            font-weight: bolder;
+            font-family: sans-serif;
+      }
+      .pv{
+            background-image: url(./Images/IMG_20240524_085003.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 650px;
+            padding-left: 60px;
+            padding-top: 60px;
+            text-align: left;
+            color: black;
+            font-family: sans-serif;
+      }
+      #cards2{
+            background-repeat: no-repeat;
+            background-image: url(./Images/tyrebg.jpg);
+            background-size: cover;
+            padding-top: 60px;
+            display: grid;
+            grid-column-gap: 5px;
+            grid-row-gap: 20px;
+            /* grid-template-columns: 50px 200px 200px 80px 170px 170px 100px; */
+            justify-content: space-around;
+            grid-template-rows: 200px 100px 100px 100px 100px;
+           
+        }
+        #t11{
+            color: white;
+            font-size: 20px;
+            grid-row: 1/2;
+            grid-column: 2/5;
+        }
+        #t21{
+            color: white;
+            border-radius: 30px;
+            background-color: blue;
+            font-size: 20px;
+            grid-row: 2/5;
+            grid-column: 2/3;
+        }
+        #t21:hover{
+            background-color: black;
+            color: white;
+        }
+        #t22{
+            color: white;
+            border-radius: 30px;
+            background-color: blue;
+            font-size: 20px;
+            grid-row: 2/5;
+            grid-column: 3/4;
+        }
+        #t22:hover{
+            background-color: black;
+            color: white;
+        }
+        #c11{
+            grid-row: 2/4;
+            grid-column: 2/3;
+            background-color: skyblue;
+            background-size: cover;
+            border-radius: 30px 30px 0px 0px;
+            font-size: large;
+            color: white;
+        }
+        #c21{
+            grid-row: 2/4;
+            grid-column: 3/4;
+            background-color: skyblue;
+            background-size: cover;
+            border-radius: 30px;
+            font-size: large;
+            color: white;
+            
+        }
+        #c31{
+            grid-row: 2/5;
+            grid-column: 5/7;
+            background-image: url(./Images/stock.avif);
+            background-size: cover;
+            border-radius: 30px;
+            font-size: large;
+            color: white;   
+       }
+       #abtus{
+            text-align: center;
+            align-items: center;
+            padding-top: 3px;
+            color: black;
+            background-color: white;
+            display: grid;
+            font-size: larger;
+            grid-template-rows: 600px;
+            /* grid-template-columns: repeat(5,auto); */
+        }
+        #a1{
+            grid-column: 2/3;
+        }
+        #a2{
+            
+            grid-column: 3/4;
+        }
+        #a3{
+            grid-column: 4/5    ;
+        }
+        #last{
+            padding-left: 30px;
+            padding-right: 30px;
+            grid-template-rows: repeat(2,auto);
+            /* grid-template-columns: 10px 80px 10px; */
+        }
+        #l1{
+            padding-top: 50px;
+            padding-bottom: 450px;
+            padding-left: 30px;
+            grid-column: 1/2;
+            grid-row: 1/2;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(./Images/images.jpeg);
+            background-position: center;
+            border-radius: 30px;
+            color: white;
+        }
+        #l2{
+            padding-top: 450px;
+            padding-bottom: 100px;
+            padding-left: 30px;
+            grid-column: 1/2;
+            grid-row: 2/3;
+            background-image: url(./Images/images\ \(1\).jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 30px;
+            font-size: xx-large;
+            color: white;
+        } 
+        #foot{
+            background-color: rgb(5, 5, 151);
+            padding-left: 90px;
+            padding-top: 50px;
+            font-size: larger;
+            display: grid;
+            grid-template-rows: 400px 100px 100px 10px;
+            /* grid-template-columns: 20px 300px 20px 300px 20px 300px 20px 300px 20px 300px 20px 300px 20px 300px 20px 300px ; */
+        }       
+        #f1{
+            color: skyblue;
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+        #f2{
+            color: skyblue;
+            grid-column: 4/5;
+            grid-row: 1/2;
+        }
+        #f3{
+            color: skyblue;
+            grid-row: 1/2;
+            grid-column: 6/7;
+        }
+        #f5{
+            color: skyblue;
+            grid-row: 1/2;
+            grid-column: 8/9;
+        }
+        #f6{
+            grid-row: 2/3;
+            grid-column: 2/4;
+        }
+        #f7{
+            grid-row: 2/3;
+            grid-column: 6/13;
+        }
+        #f8{
+            grid-row: 3/4;
+            grid-column: 2/4;
+        }
+        #f9{
+            grid-row: 3/4;
+            grid-column: 6/13;
+        }
+        a:hover{
+            color: skyblue;
+        }
+        
